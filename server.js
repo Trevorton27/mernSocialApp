@@ -30,6 +30,8 @@ app.use(helmet());
 app.use(morgan('common'));
 
 app.use('/api/auth', require('./routes/auth'));
+app.use('/api/users', require('./routes/users'));
+app.use('/api/posts', require('./routes/posts'));
 
 app.listen(PORT, () => {
   console.log('Backend server is running!');
