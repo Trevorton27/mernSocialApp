@@ -2,11 +2,11 @@
   "name": "rest-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "nodemon server.js"
   },
-  "author": "",
+  "author": "Trevor Mearns",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
